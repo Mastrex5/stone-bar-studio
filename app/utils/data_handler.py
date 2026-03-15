@@ -1,6 +1,6 @@
 import json
 import os
-from config import DATA_PATH
+from app.config import DATA_PATH
 
 def save_project(bom):
     """Save BOM to JSON file."""

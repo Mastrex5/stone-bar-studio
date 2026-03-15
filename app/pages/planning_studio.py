@@ -1,6 +1,6 @@
 import streamlit as st
-from models.material_calculator import calculate_bom
-from utils.data_handler import save_project
+from app.models.material_calculator import calculate_bom
+from app.utils.data_handler import save_project
 
 def show_page():
     st.title("Material Prep & Planning Studio")
