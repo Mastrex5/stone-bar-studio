@@ -7,5 +7,14 @@
         "veneer_sq_ft": 123.2,
         "top_sq_ft": 29.7,
         "top_dimensions": "Main: 6.0x3.0, Leg: 3.0x3.0 ft"
+    },
+    {
+        "lumber_ft": 159.62,
+        "plywood_sq_ft": 66.0,
+        "lath_sq_ft": 506.0,
+        "mortar_bags": 13,
+        "veneer_sq_ft": 220.0,
+        "top_sq_ft": 66.0,
+        "top_dimensions": "Main: 15.0x3.0, Leg: 5.0x3.0 ft"
     }
 ]
