@@ -144,8 +144,7 @@ def show_page():
     st.subheader("Profit Trend")
     
     project_names = [p['project'] for p in project_details]
-    profits = [p['profit'].replace('$', '').replace(',', '') for p in project_details]
-    profits = [float(p) for p in profits]
+    profits = [p['profit'] for p in project_details]
     
     fig_bar = go.Figure(data=[
         go.Bar(
